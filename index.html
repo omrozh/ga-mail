@@ -1,0 +1,331 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    
+  
+      <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+  
+      <meta name="apple-mobile-web-app-title" content="CodePen">
+  
+      <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  
+      <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+  
+  
+  
+    
+    <title>CodePen - Portfolio Home Page</title>
+      <link rel="canonical" href="https://codepen.io/j-w-v/pen/RrMLjV">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    
+  <style>
+  BODY {
+    background: #282931;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Varela Round', sans-serif;
+    height: 100%;
+  }
+  
+  canvas {
+    height: 100vh;
+    z-index: -10;
+    position: fixed;
+    top: 0px;
+  }
+  
+  a {
+    color: #bbbbc4;
+    text-decoration: none;
+    transition: .5s;
+  }
+  
+  a:hover {
+    color: #fc3565;
+  }
+  
+  h1 {
+    color: #fc3565;
+    padding-bottom: 0px;
+    margin-bottom: 1%;
+  }
+  
+  h2 {
+    color: #555560;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .logo {
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 8rem;
+  }
+  
+  .top {
+    padding-bottom: 5rem;
+  }
+  
+  .pulled {}
+  
+  .pulled ul li {
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .pulled h1 {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  .pulled ul li span{
+    font-size:1.2rem;
+  }
+  
+  .footer{
+  padding-top:5rem;
+  }
+  
+  .footer p{
+    color:white;
+    font-size:1.2rem;
+  }
+  
+  .visit{
+    color:white;
+    font-size:12px;
+    background:#32333a;;
+    width:146px;
+    padding:6px;
+    border-radius:10px;
+    position:fixed;
+    right:20px;
+  }
+  
+  span.new {
+      background-color: #fc3565;
+      font-weight: 700;
+      padding: .2rem;
+      margin-left: .4rem;
+      color: #fff;
+  }
+  
+  
+  
+  
+  /* Mobile first queries */
+  
+  
+  /* Larger than mobile */
+  
+  @media (min-width: 400px) {}
+  
+  
+  /* Larger than phablet */
+  
+  @media (min-width: 550px) {}
+  
+  
+  /* Larger than tablet */
+  
+  @media (min-width: 750px) {}
+  
+  
+  /* Larger than desktop */
+  
+  @media (min-width: 1000px) {}
+  
+  
+  /* Larger than Desktop HD */
+  
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  </style>
+  
+    <script>
+    window.console = window.console || function(t) {};
+  </script>
+  
+    
+    
+  </head>
+  
+  <body translate="no">
+    
+  <div id="particles-js">
+    <div class="container">
+      <div class="row top">
+        <div class="twelve column">
+          <div class="logo">GA</div>
+          <h1>GrandAssembly Mail</h1>
+          <h2>Limitless Business Email</h2>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="one-half column">
+          <div class="pens pulled">
+            <h1>Services</h1>
+            <ul><li><a target="_blank" rel="noopener noreferrer">Business Email</a></li><li><a target="_blank" rel="noopener noreferrer">Bulk Email</a></li><li><a target="_blank" rel="noopener noreferrer" >SMTP/IMAP Server</a></li><li><a target="_blank" rel="noopener noreferrer">Cloud Storage</a></li><li><a target="_blank" rel="noopener noreferrer">Time Management Tools</a></li><li><a target="_blank" rel="noopener noreferrer">Video Calls</a><span class="new">SOON</span></li></ul>
+          </div>
+        </div>
+  
+        <div class="one-half column">
+          <div class="posts pulled">
+            <h1>Services</h1>
+            <ul><li><a href="mailto:sales@grandassembly.net" target="_blank" rel="noopener noreferrer">Sign Up</a></li><li><a href="mailto:tech@grandassembly.net" target="_blank" rel="noopener noreferrer">Technical Support</a></li><li><a href="mailto:legal@grandassembly.net" target="_blank" rel="noopener noreferrer">Legal / Copyright </a></li><li><a href="mailto:sales@grandassembly.net" target="_blank" rel="noopener noreferrer">Get information about our services </a></li><li><a href="https://mail.grandassembly.net" target="_blank" rel="noopener noreferrer">Login </a></li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <div class="container ">
+    <div class="footer">
+    <p>For general inqueries contact us at contact@grandassembly.net or +1 515 207 3839</p> </div></div>
+    <canvas class="particles-js-canvas-el" width="3024" height="1572" style="width: 100%; height: 100%;"></canvas></div>
+      <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+        <script id="rendered-js">
+  // $.getJSON("http://cpv2api.com/posts/published/j-w-v", function(resp){
+  // 	if(resp.success){
+  // 		for (var i = 0; i < resp.data.length; i++) { 
+  //     $('.posts ul').append('<li><a target="_blank" href="' + resp.data[i].link +'">' + resp.data[i].title + ' <span> ' +resp.data[i].views+ ' views</span> </a></li>');
+  //     }
+  // 	}
+  // });
+  
+  // $.getJSON("https://cpv2api.com/pens/showcase/j-w-v", function(resp){
+  // 	if(resp.success){
+  // 		for (var i = 0; i < 5; i++) { 
+  //     $('.pens ul').append('<li><a target="_blank" href="' + resp.data[i].link +'">' + resp.data[i].title + ' <span> ' +resp.data[i].views+ ' views</span> </a></li>');
+  //     }
+  // 	}
+  // }); 
+  
+  
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 33,
+        "density": {
+          "enable": true,
+          "value_area": 1420.4657549380909 } },
+  
+  
+      "color": {
+        "value": "#ffffff" },
+  
+      "shape": {
+        "type": "triangle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000" },
+  
+        "polygon": {
+          "nb_sides": 5 },
+  
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100 } },
+  
+  
+      "opacity": {
+        "value": 0.06313181133058181,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false } },
+  
+  
+      "size": {
+        "value": 11.83721462448409,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false } },
+  
+  
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.4,
+        "width": 1 },
+  
+      "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200 } } },
+  
+  
+  
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "repulse" },
+  
+        "onclick": {
+          "enable": true,
+          "mode": "push" },
+  
+        "resize": true },
+  
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": 1 } },
+  
+  
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3 },
+  
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4 },
+  
+        "push": {
+          "particles_nb": 4 },
+  
+        "remove": {
+          "particles_nb": 2 } } },
+  
+  
+  
+    "retina_detect": true });
+  //# sourceURL=pen.js
+      </script>
+  
+    
+  
+  
+  
+  </body></html>
